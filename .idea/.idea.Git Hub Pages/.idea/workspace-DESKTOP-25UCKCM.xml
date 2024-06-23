@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a012697f-b04a-4456-8175-2e765803ce0d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Git Hub Pages" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/ONCGM/Utility/Editor/Languages.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ONCGM/Utility/SettingsData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ONCGM/Utility/SaveSystemSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ONCGM/Utility/SaveData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ONCGM/Utility/Editor/SaveSystemWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ONCGM/Utility/Enums.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ONCGM/Utility/SaveSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ONCGM/Utility/Editor/SaveFileWindow.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Third-Party/ONCGM/Scripts/ONCGM/Utility/Editor/Languages.cs" />
+        <option value="$PROJECT_DIR$/Assets/Third-Party/ONCGM/Scripts/ONCGM/Utility/Editor/Enums.cs" />
+        <option value="$PROJECT_DIR$/Assets/Third-Party/ONCGM/Scripts/ONCGM/Utility/Editor/SaveSystemWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Third-Party/ONCGM/Scripts/ONCGM/Utility/SaveData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Third-Party/ONCGM/Scripts/ONCGM/Utility/SettingsData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Third-Party/ONCGM/Scripts/ONCGM/Utility/SaveSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Third-Party/ONCGM/Scripts/ONCGM/Utility/Editor/SaveFileWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/ONCGM/Scripts/ONCGM/Utility/SaveData.cs" />
+        <option value="$PROJECT_DIR$/Assets/ONCGM/Scripts/ONCGM/Utility/Editor/Languages.cs" />
+        <option value="$PROJECT_DIR$/Assets/ONCGM/Scripts/ONCGM/Utility/Editor/SaveFileWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/ONCGM/Scripts/ONCGM/Utility/Enums.cs" />
+        <option value="$PROJECT_DIR$/Assets/ONCGM/Scripts/ONCGM/Utility/SaveSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/ONCGM/Scripts/ONCGM/Utility/SaveSystemSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/ONCGM/Scripts/ONCGM/Utility/Editor/SaveSystemWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/ONCGM/Utility/SaveSystemSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/ONCGM/Utility/SaveData.cs" />
+        <option value="$PROJECT_DIR$/Assets/ONCGM/Utility/SettingsData.cs" />
+        <option value="$PROJECT_DIR$/Assets/ONCGM/Utility/Editor/SaveFileWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/ONCGM/Utility/Editor/SaveSystemWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/ONCGM/Utility/SaveSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/ONCGM/Utility/Editor/Languages.cs" />
+        <option value="$PROJECT_DIR$/Assets/ONCGM/Utility/Enums.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WyeKigUC89qdhQbQomlKm3bCSX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="ONCGM.Utility.SaveSystem.SaveGameToFile" type="DotNetStaticMethod" factoryName=".NET Static Method" temporary="true">
+      <option name="EXE_PATH" value="C:\Program Files\JetBrains\JetBrains Rider 2019.2.2\lib\ReSharperHost\JetLauncherILc.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Assembly-CSharp.csproj" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.1" />
+      <option name="CLASS_NAME" value="ONCGM.Utility.SaveSystem" />
+      <option name="METHOD_NAME" value="SaveGameToFile" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Static Method.ONCGM.Utility.SaveSystem.SaveGameToFile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a012697f-b04a-4456-8175-2e765803ce0d" name="Default Changelist" comment="" />
+      <created>1580126200042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580126200042</updated>
+      <workItem from="1580126204922" duration="6609000" />
+      <workItem from="1580217201855" duration="7146000" />
+      <workItem from="1580825017293" duration="1523000" />
+      <workItem from="1581526197208" duration="4158000" />
+      <workItem from="1581540178167" duration="7014000" />
+      <workItem from="1581552249605" duration="4719000" />
+      <workItem from="1581557040521" duration="739000" />
+      <workItem from="1581604005914" duration="6072000" />
+      <workItem from="1581985391999" duration="599000" />
+      <workItem from="1582116220490" duration="1283000" />
+      <workItem from="1582208328325" duration="1588000" />
+      <workItem from="1582308783429" duration="4867000" />
+      <workItem from="1582323976492" duration="5217000" />
+      <workItem from="1582386202945" duration="8658000" />
+      <workItem from="1583331360047" duration="1321000" />
+      <workItem from="1583333710083" duration="2906000" />
+      <workItem from="1583343057844" duration="4240000" />
+      <workItem from="1583350116894" duration="700000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state x="3432" y="170" width="816" height="696" key="#Context_Actions" timestamp="1581548573094">
+      <screen x="2560" y="0" width="2560" height="1040" />
+    </state>
+    <state x="3432" y="170" width="816" height="696" key="#Context_Actions/0.0.2560.1040/2560.0.2560.1040@2560.0.2560.1040" timestamp="1581548573094" />
+    <state x="3432" y="179" key="#Notifications" timestamp="1581540360652">
+      <screen x="2560" y="0" width="2560" height="1040" />
+    </state>
+    <state x="3432" y="179" key="#Notifications/0.0.2560.1040/2560.0.2560.1040@2560.0.2560.1040" timestamp="1581540360652" />
+    <state x="2880" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583331421197">
+      <screen x="2560" y="0" width="2560" height="1040" />
+    </state>
+    <state x="2880" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1040/2560.0.2560.1040@2560.0.2560.1040" timestamp="1583331421197" />
+    <state width="2517" height="281" key="GridCell.Tab.0.bottom" timestamp="1581556973089">
+      <screen x="2560" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="281" key="GridCell.Tab.0.bottom/0.0.2560.1040/2560.0.2560.1040@2560.0.2560.1040" timestamp="1581556973089" />
+    <state width="2517" height="281" key="GridCell.Tab.0.center" timestamp="1581556973089">
+      <screen x="2560" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="281" key="GridCell.Tab.0.center/0.0.2560.1040/2560.0.2560.1040@2560.0.2560.1040" timestamp="1581556973089" />
+    <state width="2517" height="281" key="GridCell.Tab.0.left" timestamp="1581556973089">
+      <screen x="2560" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="281" key="GridCell.Tab.0.left/0.0.2560.1040/2560.0.2560.1040@2560.0.2560.1040" timestamp="1581556973089" />
+    <state width="2517" height="281" key="GridCell.Tab.0.right" timestamp="1581556973089">
+      <screen x="2560" y="0" width="2560" height="1040" />
+    </state>
+    <state width="2517" height="281" key="GridCell.Tab.0.right/0.0.2560.1040/2560.0.2560.1040@2560.0.2560.1040" timestamp="1581556973089" />
+    <state x="3704" y="244" width="458" height="552" key="RiderGenerateDialog" timestamp="1581548355913">
+      <screen x="2560" y="0" width="2560" height="1040" />
+    </state>
+    <state x="3704" y="244" width="458" height="552" key="RiderGenerateDialog/0.0.2560.1040/2560.0.2560.1040@2560.0.2560.1040" timestamp="1581548355913" />
+    <state x="3341" y="163" key="SettingsEditor" timestamp="1581540236182">
+      <screen x="2560" y="0" width="2560" height="1040" />
+    </state>
+    <state x="3341" y="163" key="SettingsEditor/0.0.2560.1040/2560.0.2560.1040@2560.0.2560.1040" timestamp="1581540236182" />
+    <state x="3507" y="252" width="1125" height="719" key="find.popup" timestamp="1582311352695">
+      <screen x="2560" y="0" width="2560" height="1040" />
+    </state>
+    <state x="3507" y="252" width="1125" height="719" key="find.popup/0.0.2560.1040/2560.0.2560.1040@2560.0.2560.1040" timestamp="1582311352695" />
+    <state x="3503" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582311191471">
+      <screen x="2560" y="0" width="2560" height="1040" />
+    </state>
+    <state x="3503" y="225" width="672" height="678" key="search.everywhere.popup/0.0.2560.1040/2560.0.2560.1040@2560.0.2560.1040" timestamp="1582311191471" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
