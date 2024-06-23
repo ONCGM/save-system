@@ -123,7 +123,7 @@ namespace ONCGM.Utility {
                 select new DirectoryInfo(GetPathToSaveLocation(path))
                 into dir
                 select dir.EnumerateFiles()
-                          .Where(file => file.Extension == string.Concat(".", settings.fileExtension) || file.Extension == JsonFileExtension || file.Extension == XmlFileExtension)
+                          .Where(file => file.Extension == GetFileExtension() || file.Extension == JsonFileExtension || file.Extension == XmlFileExtension)
                           .OrderBy(file => file.LastAccessTime)).Any(fileQuery => fileQuery.Any(file => file.Exists));
         }
 
@@ -211,7 +211,7 @@ namespace ONCGM.Utility {
             
             // Check if the files are readable, and if so, separate manual saves from auto saves.
             foreach(var file in fileQueryBinary) {
-                if(ReferenceEquals(DeserializeBinaryGameFile(file.Open(FileMode.Open)), null)) continue;
+                if(DeserializeBinaryGameFile(file.Open(FileMode.Open)) == null) continue;
 
                 if(file.Name.Contains(settings.autoSavePrefix)) {
                     AutoSavesInfo.Add(file);
@@ -430,7 +430,7 @@ namespace ONCGM.Utility {
         /// <summary>
         /// Creates a new file in the binary format in the specified path using the default settings in the save system.
         /// </summary>
-        private static void SerializeBinaryFile([NotNull] SaveData data, string path, bool appendDateAsSuffix, bool isAutoSave, string fileName = "") {
+        private static void SerializeBinaryFile([NotNull] SaveData data, string dirPath, bool appendDateAsSuffix, bool isAutoSave, string fileName = "") {
             // Checks for the directory.
             CreateDirectory();
             // Creates a formatter.
@@ -440,12 +440,12 @@ namespace ONCGM.Utility {
             // Checks if it is an auto save.
             if(!isAutoSave) {
                 // If not, save it based on the parameters.
-                stream = new FileStream(Path.Combine(path, string.Concat(string.IsNullOrEmpty(fileName) ? settings.saveFileDefaultName : fileName,
+                stream = new FileStream(Path.Combine(dirPath, string.Concat(string.IsNullOrEmpty(fileName) ? settings.saveFileDefaultName : fileName,
                                                                          appendDateAsSuffix ? GetCurrentDateFormatted() : string.Empty,
                                                                          GetFileExtension())), FileMode.Create);
             } else {
                 // If it is, use auto save naming.
-                var autoSavePath = Path.Combine(path, string.Concat(settings.autoSavePrefix, fileName, appendDateAsSuffix ? GetCurrentDateFormatted() : string.Empty,
+                var autoSavePath = Path.Combine(dirPath, string.Concat(settings.autoSavePrefix, fileName, appendDateAsSuffix ? GetCurrentDateFormatted() : string.Empty,
                                                                     GetFileExtension()));
                 
                 stream = new FileStream(autoSavePath, FileMode.Create);
@@ -473,7 +473,7 @@ namespace ONCGM.Utility {
             
             // Creates the formatter.
             var formatter = new BinaryFormatter();
-            var stream = new FileStream(string.Concat(info.FullName, info.Extension), FileMode.Create);
+            var stream = new FileStream(info.FullName, FileMode.Create);
             
             // Serializes the file and closes the stream.
             formatter.Serialize(stream, data);
@@ -624,17 +624,21 @@ namespace ONCGM.Utility {
             FileInfo autoSave = null;
             if(AutoSavesInfo.Count > 0) autoSave = AutoSavesInfo.OrderByDescending(save => save.LastWriteTime).First();
 
-            // Loads the most recent.
-            var saveFile = gameSave?.LastWriteTime > autoSave?.LastWriteTime ? gameSave : autoSave;
-            
-            // Checks if it is valid.
-            if(ReferenceEquals(saveFile, null)) {
+            // Loads the most recent by default and checks nulls.
+            FileInfo saveFile = null;
+            if(( gameSave != null ) && ( autoSave != null )) {
+                saveFile = gameSave?.LastWriteTime > autoSave?.LastWriteTime ? gameSave : autoSave;
+            } else if(( gameSave != null ) && ( autoSave == null )) {
+                saveFile = gameSave;
+            } else if(( gameSave == null ) && ( autoSave != null )) {
+                saveFile = autoSave;
+            } else {
                 Debug.Log("No save was found. Creating a new save file template.");
                 LoadedData = new SaveData();
                 SerializeToFile(settings.saveFileDefaultName);
                 return LoadedData;
             }
-            
+
             // Deserializes the data.
             SaveData data;
 
