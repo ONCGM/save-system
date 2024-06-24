@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ONCGM.Utility {
+namespace ONCGM.Utility.Saves {
     /// <summary>
     /// This class holds the editor and runtime settings for the save system. Once the application is built, changes are permanent.
     /// </summary>

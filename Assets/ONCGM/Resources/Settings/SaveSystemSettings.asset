@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73528d5d4e5a34d4ab076b42a7c4852c, type: 3}
   m_Name: SaveSystemSettings
   m_EditorClassIdentifier: 
-  saveLocation: 0
-  saveFormat: 0
+  saveLocation: 2
+  saveFormat: 1
   directoryName: Save Data
   saveFileDefaultName: save
-  settingsFileDefaultName: settings
+  autoSavePrefix: 'auto save - '
+  exitSaveName: exit save
   fileExtension: oncgm
   autoSave: 1
+  hideAutoSave: 0
   autoSaveInterval: 6
   language: 0

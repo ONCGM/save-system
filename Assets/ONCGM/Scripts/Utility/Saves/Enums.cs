@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ONCGM.Utility {
+namespace ONCGM.Utility.Saves {
     /// <summary>
     /// Defines the language available for use in the save system editor window.
     /// </summary>

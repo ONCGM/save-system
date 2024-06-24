@@ -1,12 +1,15 @@
 {
-    "name": "ONCGM",
-    "references": [],
+    "name": "ONCGMSaveSystem",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2e19ee938246de146a1a04a46f1b1469"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
     "precompiledReferences": [],
-    "autoReferenced": true,
+    "autoReferenced": false,
     "defineConstraints": [],
     "versionDefines": [],
     "noEngineReferences": false

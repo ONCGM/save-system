@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
+using ONCGM.Utility.Saves;
 using static ONCGM.Utility.Editor.Languages;
 using Debug = UnityEngine.Debug;
 
@@ -95,7 +96,7 @@ namespace ONCGM.Utility.Editor {
             GUILayout.Space(7f);
             GUILayout.Label(DirectoryName[(int) Settings.language], EditorStyles.largeLabel);
             Settings.directoryName = GUILayout.TextField(Settings.directoryName, 35);
-            if(Settings.saveFormat == SaveFormat.Binary) {
+            if(Settings.saveFormat == Saves.SaveFormat.Binary) {
                 GUILayout.Label(Languages.FileExtension[(int) Settings.language], EditorStyles.largeLabel);
                 Settings.fileExtension = GUILayout.TextField(Settings.fileExtension, 6);
             }

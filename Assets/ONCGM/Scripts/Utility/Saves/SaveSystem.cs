@@ -10,7 +10,7 @@ using JetBrains.Annotations;
 using UnityEngine;
 using Timer = System.Timers.Timer;
 
-namespace ONCGM.Utility {
+namespace ONCGM.Utility.Saves {
     public static class SaveSystem {
         /// <summary>
         /// The active save data. Use this to modify the values you need, then save it.
